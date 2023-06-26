@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "dity";
+  src: url("./asset/fonts/dity.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://images.unsplash.com/photo-1636690513351-0af1763f6237?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1742&q=80");
+  background-size: cover;
+}
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* MAIN CSS */
+.main {
+  display: flex;
+}
+.left {
+  height: 100vh;
+  width: 50%;
+}
+.left-main-title {
+  padding-top: 40%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 65px;
+  font-weight: 900;
+  color: white;
+}
+.left-content {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0)
+  );
+  height: 100vh;
+}
+.left-main-sub-title {
+  padding-top: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+  color: white;
+  font-family: "Montserrat";
+  letter-spacing: 2px;
+  line-height: 50px;
+  font-size: 22px;
+}
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root,
+.css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input,
+.css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root,
+.css-1pnmrwp-MuiTypography-root {
+  color: rgb(255 255 255 / 100%) !important;
+}
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+  font-size: 20px !important;
+  font-weight: 600;
+}
+.right {
+  /* margin: 10px;
+  padding-left: 10%; */
+  width: 50%;
+  color: white;
+  position: relative;
+  display: inline-block;
+}
+
+.right-content {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0)
+  );
+}
+.right-glass {
+  position: absolute;
+  top: 8%;
+  left: 10%;
+  width: 80%;
+  height: 85%;
+  opacity: 1;
+  border-radius: 50px;
+  backdrop-filter: blur(35px);
+}
+.right-title {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-size: 40px;
+  font-family: "dity";
+  letter-spacing: 2px;
+  line-height: 50px;
+}
+.input-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.right-button,
+.righ-answer-content {
+  margin-top: 20px;
+}
+.righ-answer-content {
+  font-family: "dity";
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+  padding-left: 80px;
+}
+.right-answer {
+  max-width: 550px;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+.crunchButton {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(122, 30, 227, 0.8),
+    rgb(16, 230, 215, 0.8)
+  );
+}
